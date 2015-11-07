@@ -31,7 +31,7 @@ angular.module('shortly', [
       controller: 'ShortenController'
     })
     .otherwise({
-      redirectTo: '/links'
+      redirectTo: '/signin'
     });
 
     // We add our $httpInterceptor into the array
